@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas</title>
+    <style>
+        table thead tr {
+            background-color: black;
+            color: white;
+        }
+        table tbody tr:nth-child(even){
+            background-color: #d0cece;
+        }
+        table tbody tr:hover td{
+            background-color: #d0cece;
+            cursor: pointer;
+        }
+        table{
+            -webkit-box-shadow: 0px 1px 6px 13px rgba(0,0,0,0.32); 
+            box-shadow: 0px 1px 6px 13px rgba(0,0,0,0.32);
+            border: solid 1px black;
+        } 
+        table tfoot tr{
+            background-color: darkgrey;
+        }
+       </style>
+</head>
+<body>
+    <table width = "300" align ="center" cellspacing = "0"  >
+        <caption>Tabela de nome e idade (Nome da tabela)</caption>
+        <thead>
+            <tr>
+                <th  colspan = "2" align="center">Minha Tabela</th>
+            </tr>
+            <tr >
+                <th align = "center">Nome</th>
+                <th align = "center">Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align = "center">Pedro</td>
+                <td align = "center">18</td>
+            </tr>
+            <tr>
+                <td align = "center">Nicolas</td>
+                <td align = "center">13</td>
+            </tr>
+            <tr>
+                <td align = "center">Laura</td>
+                <td align = "center">23</td>
+            </tr>
+            <tr>
+                <td align = "center">Maria</td>
+                <td align = "center">9</td>
+            </tr>
+            <tr>
+                <td align = "center">Joao</td>
+                <td align = "center">17</td>
+            </tr>
+        </tbody>
+        <tfoot>    
+            <tr>
+                <td align="center">Total</td>
+                <td align="center">5</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
