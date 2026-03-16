@@ -1,0 +1,48 @@
+<!-- Para montar todo o esquele digite "HTML" e de enter/tab-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!--head ficará as configurações da minha página-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tradutor do Med</title>
+</head>
+
+<body> <!--no body ficará todo o código do meu site-->
+    <div class="caixa_maior"> <!--A div é uma caixa invisível que suporta elementos diversos, textos,caixas...-->
+        
+        <textarea class="input_texto"> </textarea>    <!--Espaço para digitação-->
+        <div class="controle">
+
+
+        <select class="selecao_idioma">     <!--Caixa de seleção-->
+            <option class = "ingles">Inglês</option>   <!--opção-->
+            <option class = "alemao">Alemão</option>
+            <option class = "Italiano">Italiano</option>
+        </select>
+
+        <button onclick="traduzir()">
+            <img src = "img/traduzir.svg">
+        </button>    <!--Botão, ao meio vai o nome do botão-->
+        
+        <button>
+            <img src = "img/microfone.svg">
+        </button>
+
+        </div>
+
+        <div class="resultado">
+            <h4 class="titulo_traducao">Tradução: </h4> <!--aqui temos uma seleção de h1--h6 Ex: h1-titulo h6-textos pequenos-->
+            <p class="subtitulo_traducao">A tradução apareçerá aqui...</p>
+        </div>
+    </div>
+
+
+</body>
+<script src="scripts.js">
+    
+</script>
+
+</html>
