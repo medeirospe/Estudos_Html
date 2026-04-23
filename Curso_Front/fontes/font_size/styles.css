@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+code + p{
+    font-family: Roboto;
+}
+
+code{
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+#tamanho{
+    font-size: 35px;
+}
+
+#xx-small{
+    font-size: xx-small;
+}
+
+#x-small{
+ font-size: x-small;
+}
+
+#small{
+    font-size: small;
+}
+
+#medium{
+ font-size: medium;
+}
+
+#large{
+ font-size: large;
+}
+
+#x-large{
+    font-size: x-large;
+}
+
+#xx-large{
+    font-size: xx-large;
+}
+
+div{
+    font-size: 25px;
+}
+div p{
+    font-size: smaller;
+}
