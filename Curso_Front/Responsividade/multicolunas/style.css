@@ -1,0 +1,10 @@
+div{
+    font-family: sans-serif;
+}
+
+.container{
+    column-width: 250px ;
+    column-count: 3;
+    column-rule: 1px solid gray;
+    column-gap: 70px;
+}
