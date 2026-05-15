@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    
+    font-family: SNPro;
+}
+@font-face {
+    font-family:SNPro ;
+    src: url(/SN_Pro/SNPro-Italic-VariableFont_wght.ttf);
+}
+
+.img-logo img{
+    width: 200px;
+    height: auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 10px 95px 35px 0;
+    border-bottom: solid 4px #003067;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+}
+
+.area-login{
+    display: flex;
+    width: 850px;
+    height: 500px;
+    border-radius: 20px;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 15px -2px #003067; 
+    box-shadow: 0px 0px 15px -2px #003067;
+}
+.mensagem{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 100px;
+    padding: 0 40px 0 30px;
+    font-size: xx-large;
+    border-right: solid 2px lightgray;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    color: #003067;
+}
+
+.dados-usuario{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 70px 80px 55px;
+    font-size: x-large;
+    
+}
+.dados-usuario label{
+    font-size: 18px;
+}
+.txt-entrar{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 0 10px 50px 0;
+
+}
+.txt-entrar p{
+    font-size: 18px;
+}
