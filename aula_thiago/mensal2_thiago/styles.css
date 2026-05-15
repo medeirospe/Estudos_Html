@@ -54,7 +54,7 @@ main{
     display: flex;
     flex-direction: column;
     flex: 1;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     padding: 0 70px 80px 55px;
@@ -63,6 +63,29 @@ main{
 }
 .dados-usuario label{
     font-size: 18px;
+    color: #003067;
+}
+.label-access{
+    display: flex;
+    text-align: left;
+    width: 300px;
+}
+.dados-usuario input{
+    border-radius: 5px;
+    border:solid 2px #003067;
+    height: 22px;
+    width: 290px;    
+}
+.dados-usuario button{
+    border-radius: 5px;
+    height: 30px;
+    width: 170px;
+    padding: 5px;
+    text-align: center;
+    justify-items: center;
+}
+.button-access{
+    padding-top: 20px;
 }
 .txt-entrar{
     display: flex;
