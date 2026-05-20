@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #F6F1E6;
+    padding: 0 30px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 270px;
+    padding: 20px 20px 20px 0px  ;
+    border-bottom: solid 3px #C85A34;
+    
+}
+header h2{
+    width: 200px;
+}
+header span{
+    color: #C85A34; 
+    
+}
+.da-carol{
+    color: black;
+    font-weight: 300;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    padding-top: 5px;
+}
+a{
+    text-decoration: none;
+    color: #6B7A49;
+}
+
+
+.introduction{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+}
+.introduction img{
+    width: 300px;
+}
+.img-logo{
+    
+    height: auto;
+    padding-top: 30px;
+}
+.txt-introduction h2{
+    padding-top: 40px;
+    font-size: 47px;
+}
+.txt-introduction span{
+    color: #C85A34;
+}
+
+.txt-introduction p{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 0 30px;
+    color: #6B7A49;
+    line-height: 1.6;
+    letter-spacing: 0.6px;
+}
+.txt-introduction button{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid 2px gray;
+    background-color: inherit;
+    font-size: 16px;
+    font: 900;
+}
+
+
+
+article{
+    padding-top: 45px;
+}
+article h1, article h4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-weight:300 ;
+}
+article h4{
+    color: #C85A34;
+}
+.cardapio{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center ;
+}
+.cardapio span{
+    font-size: 35px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.cardapio div{
+    width: 190px;
+    height: 195px;
+    border: solid 1px #C85A34;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.9); 
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+.cardapio div p{
+    font-weight: 100;
+    color: gray;
+    padding-left: 16px;
+}
+.cardapio div h4{
+    color: black;
+    width: 100px;
+    padding-left: 14px;
+    padding-bottom: 7px;
+    font-weight: 600;
+    display: inline-block;
+    width: 150px;
+    
+}
+
+.first-column{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+.second-column{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}
+.cardapio a{
+    padding: 27px 0 0 16px;
+    text-decoration: underline;
+}
+.veludo-mandioquinha a{
+    padding-top: 9px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    background-color: #4B2E20;
+    margin: 0 -60px 0 -30px;
+    color: #DFCB9A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    gap: 400px;
+    
+}
+footer p{
+    padding-left: 60px;
+    padding-bottom: 15px;
+}
+footer a{
+    padding-left: 10px;
+}
+
+.button-footer{
+    display: flex;
+    align-items:center;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+.button-footer button{
+    padding: 10px;
+    width: 100px;
+    background-color:#F6F1E6;
+    border-radius: 9px;
+    border: solid 2px black;
+}
+
+
