@@ -3,13 +3,13 @@
 }
 body{
     background-color: #F6F1E6;
-    padding: 0 30px;
+    padding: 0 45px;
 }
 header{
     display: flex;
     flex-direction: row;
-    gap: 270px;
-    padding: 20px 20px 20px 0px  ;
+    gap: 500px;
+    padding: 20px 20px 10px 0px  ;
     border-bottom: solid 3px #C85A34;
     
 }
@@ -29,6 +29,7 @@ nav{
     flex-direction: row;
     gap: 70px;
     padding-top: 5px;
+    
 }
 a{
     text-decoration: none;
@@ -39,13 +40,16 @@ a{
 .introduction{
     display: flex;
     flex-direction: row;
-    gap: 250px;
+    gap: 350px;
+}
+.txt-introduction{
+    padding-left: 5px;
 }
 .introduction img{
     width: 300px;
 }
 .img-logo{
-    
+    padding-left: 40px;
     height: auto;
     padding-top: 30px;
 }
@@ -160,26 +164,26 @@ footer{
     align-items: center;
     height: 100px;
     background-color: #4B2E20;
-    margin: 0 -60px 0 -30px;
+    margin: 0 -60px 0 -70px;
     color: #DFCB9A;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
+    font-weight: 70;
     font-size: 13px;
-    gap: 400px;
+    gap: 500px;
     
 }
 footer p{
     padding-left: 60px;
-    padding-bottom: 15px;
+    
 }
 footer a{
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .button-footer{
     display: flex;
     align-items:center;
-    padding-left: 40px;
+    padding-left: 250px;
     padding-bottom: 10px;
 }
 .button-footer button{
